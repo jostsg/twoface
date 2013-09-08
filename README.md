@@ -7,7 +7,7 @@ Install TwoFace with `bower` and `npm`. This is necessary since they have differ
 ## Setup server
 ```js
 // server.js
-var twoface   = require( "twoface" );
+var twoface     = require( "twoface" );
 var express     = require( "express" );
 var path        = require( "path" );
 var app         = require( "./app" );
@@ -31,7 +31,7 @@ twoface.run();
 // client.js
 var myApp = require( "./app" );
 
-// Make sure 
+// Make sure TwoFace is installed using bower
 var twoface = require( "./bower_components/twoface/client.js" );
 
 // Init
@@ -146,7 +146,7 @@ sandbox.http.get( "/service", function ( err, data ) {
 ## templates
 
 ##### render( name: String, data: Object )
-`render()` renders templates at `templates:/` with the given `data`.
+`render()` renders templates at `:templates/:name` with the given `data`.
 
 ```js
 var data = {
