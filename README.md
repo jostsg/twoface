@@ -29,13 +29,13 @@ twoface.run();
 ## Setup client
 ```js
 // client.js
-var myApp = require( "./app" );
+var app = require( "./app" );
 
 // Make sure TwoFace is installed using bower
 var twoface = require( "./bower_components/twoface/client.js" );
 
 // Init
-myApp.init( twoface );
+app.init( twoface );
 
 twoface.run();
 ```
