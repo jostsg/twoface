@@ -94,7 +94,7 @@ Since this is a show case, TwoFace depends on jQuery for cleaner examples. Make 
 ```
 
 ## Build client file
-Client file has to be build since the TwoFace uses CommonJs.
+The client file has to be build since TwoFace embraces the CommonJS module pattern.
 
 `node_modules/.bin/browserify client.js dist/js/client.js`
 
