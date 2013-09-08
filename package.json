@@ -1,0 +1,10 @@
+{
+    "name": "twoface",
+    "version": "0.0.1",
+    "main": "server.js",
+    "author": "jostsg",
+    "dependencies": {
+        "express": "~3.4.0",
+        "handlebars": "~1.0.12"
+    }
+}

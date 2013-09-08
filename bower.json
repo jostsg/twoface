@@ -1,0 +1,8 @@
+{
+    "name": "twoface",
+    "version": "0.0.1",
+    "main": "client.js",
+    "dependencies": {
+       "page": "~1.3.6"
+    }
+}
