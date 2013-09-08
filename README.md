@@ -93,6 +93,11 @@ Since this is a show case, TwoFace depends on jQuery for cleaner examples. Make 
 }());
 ```
 
+## Build client file
+Client file has to be build since the TwoFace uses CommonJs.
+
+`node_modules/.bin/browserify client.js dist/js/client.js`
+
 ## Start server
 `node server.js`
 
