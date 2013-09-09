@@ -115,12 +115,11 @@ The client file has to be built using `browserify` since TwoFace embraces the Co
 `get()` adds routes
 
 - `pattern` can be any pattern that page.js and express.js allow
-- `callback` will be called like this `callback( context, done )`
-  - `context` contains parameters
+- `callback` will be called like this `callback( done )`
   - `done` is a function to indicate that a routing process is done
 
 ```js
-sandbox.router.get( "/my-route", function ( ctx, done ) {
+sandbox.router.get( "/my-route", function ( done ) {
     // do smth
     done();
 });
