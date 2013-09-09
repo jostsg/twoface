@@ -1,7 +1,8 @@
-# TwoFace example product
+# Example product
 
 # Init
 `bower install`
+
 `npm install -d`
 
 # Start
