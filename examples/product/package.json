@@ -1,0 +1,13 @@
+{
+    "name": "sharedCode",
+    "version": "0.0.1",
+    "author": "jostsg",
+    "main": "server.js",
+    "dependencies": {
+       "express": "~3.4.0",
+       "twoface": "git://github.com/jostsg/twoface.git"
+    },
+    "devDependencies": {
+        "browserify": "~2.29.1"
+    }
+}

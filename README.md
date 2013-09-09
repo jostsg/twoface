@@ -76,9 +76,9 @@ Since this is a show case, TwoFace depends on jQuery for cleaner examples. Make 
 // app.js
 ( function () {
 
-    module.exports.init = function ( framework ) {
+    module.exports.init = function ( twoface ) {
 
-        framework.module( function ( sandbox ) {
+        twoface.module( function ( sandbox ) {
 
             sandbox.router.get( "/", function ( context, done ) {
                 sandbox.templates.render( "index" );

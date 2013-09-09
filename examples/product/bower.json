@@ -1,0 +1,8 @@
+{
+    "name": "sharedCode",
+    "version": "0.0.1",
+    "dependencies": {
+        "jquery": "http://code.jquery.com/jquery-2.0.3.min.js",
+        "twoface": "git@github.com:jostsg/twoface.git"
+    }
+}
