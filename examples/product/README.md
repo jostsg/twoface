@@ -11,4 +11,4 @@
 # Development
 The client.js has to be built using browserify since TwoFace embraces the CommonJS module pattern.
 
-`node_modules/.bin/browserify app.js > dist/js/client.js`
+`node_modules/.bin/browserify client.js > dist/js/client.js`

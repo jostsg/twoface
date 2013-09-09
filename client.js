@@ -1,6 +1,6 @@
 ( function () {
     var Sandbox = require( "./sandbox_client.js" );
-    var page = require( "./bower_components/page/index.js" );
+    var page = require( "../page/index.js" );
 
     /**
      * @class framework
