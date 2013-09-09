@@ -4,7 +4,7 @@
 
         twoface.module( function ( sandbox ) {
 
-            sandbox.router.get( "/result", function ( context, done ) {
+            sandbox.router.get( "/result", function ( done ) {
 
                 sandbox.http.get( "/api/result", function ( err, data ) {
 

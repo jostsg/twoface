@@ -35,13 +35,9 @@ module.exports.create = function ( server, templates ) {
                         baseUrl = req.protocol + "://" + req.get( "host" );
                     }
 
-                    var context = {
-                        params: req.params
-                    };
-
-                    callback( context, function () {
+                    callback( function () {
                         res.end( html )
-                    })
+                    });
                 });
             }
         },

@@ -5,7 +5,7 @@
 
         twoface.module( function ( sandbox ) {
 
-            sandbox.router.get( "/result", function ( context, done ) {
+            sandbox.router.get( "/result", function ( done ) {
 
                 sandbox.http.get( "/api/result", function ( err, data ) {
 
@@ -532,11 +532,7 @@ module.exports.create = function ( page, templates ) {
              */
             get: function( pattern, callback ) {
                 page( pattern, function ( context, next ) {
-                    var context = {
-                        params: context.params
-                    };
-
-                    callback( context, function () {} );
+                    callback( function () {} );
                 });
             }
         },

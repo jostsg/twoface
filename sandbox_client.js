@@ -35,11 +35,7 @@ module.exports.create = function ( page, templates ) {
              */
             get: function( pattern, callback ) {
                 page( pattern, function ( context, next ) {
-                    var context = {
-                        params: context.params
-                    };
-
-                    callback( context, function () {} );
+                    callback( function () {} );
                 });
             }
         },
