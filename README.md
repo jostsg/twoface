@@ -37,12 +37,13 @@ var twoface = require( "./bower_components/twoface/client.js" );
 // Init
 app.init( twoface );
 
+// Start routing
 twoface.run();
 ```
 
 ## Add Layout
 
-By convention TwoFace looks for an layout at `:templatePath/layout.html`.
+By convention TwoFace looks for a layout at `:templatePath/layout.html`.
 
 Since this is a show case, TwoFace depends on jQuery for cleaner examples. Make sure jQuery is added to the layout.
 

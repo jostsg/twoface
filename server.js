@@ -9,7 +9,7 @@ var Sandbox     = require( "./sandbox_server" );
 // has to happen before route registration, otherwise the parser breaks
 server.use( express.bodyParser() );
 
-var framework = {
+var twoface = {
     /**
      * Expose server to be able to add custom middleware
      *
@@ -68,6 +68,6 @@ var framework = {
 }
 
 /**
- * @module framework
+ * @module twoface
  */
-module.exports = framework;
+module.exports = twoface;
