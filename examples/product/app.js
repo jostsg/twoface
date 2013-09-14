@@ -1,6 +1,16 @@
 ( function () {
 
-    module.exports.init = function ( twoface ) {
+    /**
+     * @class myApp
+     * @static
+     */
+    var MyApp = {};
+    
+    /**
+     * @method init
+     * @param {Object} twoface
+     */
+    MyApp.create = function ( twoface ) {
 
         twoface.module( function ( sandbox ) {
 
@@ -18,12 +28,14 @@
                 });
             });
 
-            sandbox.router.get( "/", function ( context, done ) {
+            sandbox.router.get( "/", function ( done ) {
                 sandbox.templates.render( "index" );
 
                 done();
             })
         });
     }
+
+    module.exports = MyApp;
 
 }());

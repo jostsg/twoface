@@ -1,6 +1,6 @@
-var app = require( "./app" );
+var App = require( "./app" );
 var twoface = require( "./bower_components/twoface/client.js" );
 
-app.init( twoface );
+App.create( twoface );
 
 twoface.run();
